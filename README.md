@@ -5,4 +5,4 @@ optimizar la gestión de productos y pedidos para los administradores. Utilizand
 que permita a los usuarios explorar, seleccionar y comprar productos de manera sencilla, mientras que los administradores puedan gestionar eficientemente el inventario, los pedidos y los clientes. 
 Este proyecto será una oportunidad para aplicar conceptos clave de programación, diseño de interfaces y bases de datos, además de fortalecer habilidades prácticas en el desarrollo de aplicaciones web
 en un entorno real.
-Elegi este proyecto en base a mi antiguo trabajo en tipti donde quiero entrar al area de datos despues de terminar la tecnologia
+Elegi este proyecto en base a mi antiguo trabajo en tipti donde quiero entrar al area de datos o programacion despues de terminar la tecnologia
