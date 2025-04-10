@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>TechShop Online</title>
+    </head>
+    <body>
+        <h1><p align="center">TECHSHOP ONLINE</p></h1>
+        <b><p align="center">Bienvenido a nuestra tienda virtual</p></b>
+        <p align="center"><img src="\public\tienda.jpg" alt="TechShop" width="500" height=" "></p>
+        <p align="left"><img src="https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg" alt="Productos" width="300" height="200"></p>
+        <p align="right"><img src="https://images.pexels.com/photos/5076516/pexels-photo-5076516.jpeg" alt="Compras" width="300" height="200"> <p align="left"></p>
+        <a href = "https://www.amazon.com" target="_blank">Visita Amazon </a>
+    </br>
+        <a href = "https://www.ebay.com" target="_blank">Visita eBay</a>
+    <p>
+    <table align="center" bgcolor="#f5f5f5" border="1">
+        <tr>
+            <th bgcolor="#00ffff" colspan="4" align="center">Horarios de Atención al Cliente</th>
+        </tr>
+        <tr>
+            <th>Día</th>
+            <th>Hora de inicio</th>
+            <th>Hora de fin</th>
+            <th>Servicio Disponible</th>
+        </tr>
+        <tr>
+            <td>Lunes a Viernes</td>
+            <td>08:00</td>
+            <td>20:00</td>
+            <td>Chat en vivo, soporte técnico, devoluciones</td>
+        </tr>
+        <tr>
+            <td>Sábado</td>
+            <td>09:00</td>
+            <td>14:00</td>
+            <td>Solo chat automático</td>
+        </tr>
+        <tr>
+            <td>Domingo</td>
+            <td colspan="2" align="center">Sin atención</td>
+            <td>Tienda online disponible 24/7</td>
+        </tr>
+    </table>
+    </p>
+    </body>
+    <body>
+        <form action="https://www.google.com.ec/?hl=es" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre del cliente</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
+                    </td>
+                    <td>
+                        <label for="pais">País de envío</label>
+                        <select id="pais" name="pais">
+                            <option value="Ec">Ecuador</option>
+                            <option value="Co">Colombia</option>
+                            <option value="Pe">Perú</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="direccion">Dirección de entrega</label>
+                        <textarea id="direccion" name="direccion" placeholder="Dirección completa" rows="4" cols="20">
+                        Calle Principal 123
+                        </textarea>
+                    </td>
+                    <td>
+                        <label for="categoria">Categorías favoritas</label>
+                        <select id="categoria" name="categorias">
+                            <option value="electronicos">Electrónicos</option>
+                            <option value="hogar">Hogar</option>
+                            <option value="moda">Moda</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="frecuencia">Frecuencia de compra</label>
+                        <input type="range" id="frecuencia" name="frecuencia">
+                    </td>
+                    <td>
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad" name="edad">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="busqueda">Buscar productos</label>
+                    </td>
+                    <td>
+                        <input list="productos" id="busqueda" name="busqueda">
+                        <datalist id="productos">
+                            <option value="Smartphone Galaxy S23"></option>
+                            <option value="Laptop HP Pavilion"></option>
+                            <option value="Smartwatch Apple"></option>
+                            <option value="Auriculares Sony"></option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="envio">Método de envío</label>
+                        <input type="radio" id="estandar" name="envio">Estándar
+                        <input type="radio" id="express" name="envio">Express
+                    </td>
+                    <td>
+                        <label for="preferencias">Preferencias de compra</label>
+                        <input type="checkbox" id="ofertas" name="ofertas">Ofertas
+                        <input type="checkbox" id="nuevos" name="nuevos">Productos nuevos
+                        <input type="checkbox" id="rebajas" name="rebajas">Rebajas
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <button type="submit" value="Enviar">Crear cuenta</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,6 +1,10 @@
 const express = require('express');
+const path = require('path');
 const app = express();
+
+// Configurar múltiples directorios estáticos
 app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'Modulo 1/unidad 1/public')));
 
 app.get('/hello-world', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });

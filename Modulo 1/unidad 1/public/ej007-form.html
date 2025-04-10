@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Imagen</title>
+    </head>
+    <body>
+        <form action="https://www.youtube.com" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <label form="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder=""pedro>
+                    </td>
+                
+                    <td>
+                        <label form="edad">Edad</label>
+                        <input type="text" id="edad" name="edad" placeholder="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label form="nombre">Pais</label>
+                        <select id="pais" name="pais">
+                            <option value="España">España</option>
+                            <option value="Francia">Francia</option>
+                            <option value="Alemania">Alemania</option>
+                        </select>
+                    </td>      
+                </tr>
+                <tr>
+                    <td>
+                        <label form="nombre">provincias</label>
+                        <select id="provincia" name="provincia">
+                            <option value="España">España</option>
+                            <option value="Francia">Francia</option>
+                            <option value="Alemania">Alemania</option>
+                        </select>
+                    </td>
+                </tr>
+                    <td>
+                        <label for="nombre">direccion</label>
+                        <textarea
+                        id="direccion" name="direccion" placeholder="direccion" rows="5" cols="20">
+                        Av.Occidental UTE
+                        </textarea>
+                    </td>
+                    <td>
+                        <label for="nombre">Colores</label>
+                        <select id="colores" name="colores" multiple>
+                            <option value="4">azul</option>
+                            <option value="3">verde</option>
+                            <option value="2">marron</option>
+                            <option value="1">negro</option>
+                        </select>
+                    </td>
+            </table>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "name": "miniservidor",
+  "name": "programacion-3-",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,8 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.1.0"
   }
 }
