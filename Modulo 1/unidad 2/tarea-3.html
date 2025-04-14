@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Compilación de ejemplos CSS</title>
+        <style>
+            /* Estilos para organizar el contenido */
+            section {
+                margin-bottom: 30px;
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 20px;
+            }
+            h2 {
+                color: #333;
+            }
+            .codigo {
+                background-color: #f5f5f5;
+                padding: 15px;
+                border-left: 3px solid #333;
+                margin: 10px 0;
+            }
+            
+            /* Estilos de css002-interno.html */
+            .css002 p {
+                color: blue;
+            }
+            
+            /* Estilos para cada ejemplo */
+            .texto2 {
+                color: green;
+                font-size: 20px;
+                font-family: Arial, sans-serif;
+                font-weight: bold;
+                text-decoration: underline;
+                text-transform: uppercase;
+                text-align: center;
+            }
+            .box {
+                width: 200px;
+                height: 100px;
+                padding: 20px;
+                border: 5px solid black;
+                margin: 30px;
+                background-color: lightgray;
+            }
+            .fondo {
+                width: 400px;
+                height: 200px;
+                background-color: #f0f0f0;
+                background-image: url('https://via.placeholder.com/400x200');
+                background-repeat: no-repeat;
+                background-position: center;
+                color: white;
+                text-align: center;
+                padding-top: 80px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Compilación de ejemplos CSS - Unidad 2</h1>
+        
+        <!-- css001.html -->
+        <section id="css001">
+            <h2>CSS001 - Estilo en línea</h2>
+            <div class="codigo">
+                <p style="color:red">
+                parrafo de texto en color rojo
+                </p>
+            </div>
+        </section>
+        
+        <!-- css002-interno.html -->
+        <section id="css002" class="css002">
+            <h2>CSS002 - Estilo interno</h2>
+            <div class="codigo">
+                <p style="color:red">
+                parrafo de texto en color azul
+                </p>
+            </div>
+        </section>
+        
+        <!-- css003-externo.html -->
+        <section id="css003">
+            <h2>CSS003 - Estilo externo</h2>
+            <div class="codigo">
+                <p>
+                parrafo de texto en color verde
+                </p>
+                <a>
+                que la fuerza te acompañe
+                </a>
+            </div>
+        </section>
+        
+        <!-- css004-selectores.html -->
+        <section id="css004">
+            <h2>CSS004 - Selectores</h2>
+            <div class="codigo">
+                <p>
+                parrafo sin css
+                </p>
+                <div>
+                    <p>
+                    parrafo con estilo
+                    </p>
+                </div>
+                <ul>
+                    <li> ej 1</li>
+                    <li> ej 2</li>
+                </ul>
+                <a href="https://www.google.com">Google</a>
+                <br/>
+                <input type="text" value="texto">
+            </div>
+        </section>
+        
+        <!-- css005-texto.html -->
+        <section id="css005">
+            <h2>CSS005 - Texto</h2>
+            <div class="codigo">
+                <p class="texto1">
+                parrafo sin css
+                </p>
+                <div>
+                    <p class="texto2">
+                    parrafo con estilo
+                    </p>
+                </div>
+                <a href="https://www.google.com">Google</a>
+                <br/>
+                <input type="text" value="texto">
+            </div>
+        </section>
+        
+        <!-- css006-boxmodel.html -->
+        <section id="css006">
+            <h2>CSS006 - Box Model</h2>
+            <div class="codigo">
+                <div class="box">
+                    caja con estilo de box model
+                </div>
+            </div>
+        </section>
+        
+        <!-- css007-fondos.html -->
+        <section id="css007">
+            <h2>CSS007 - Fondos</h2>
+            <div class="codigo">
+                <div class="fondo">
+                    FONDO PERSONALIZADO
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
