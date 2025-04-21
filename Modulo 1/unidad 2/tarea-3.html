@@ -3,60 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Compilación de ejemplos CSS</title>
-        <style>
-            /* Estilos para organizar el contenido */
-            section {
-                margin-bottom: 30px;
-                border-bottom: 1px solid #ccc;
-                padding-bottom: 20px;
-            }
-            h2 {
-                color: #333;
-            }
-            .codigo {
-                background-color: #f5f5f5;
-                padding: 15px;
-                border-left: 3px solid #333;
-                margin: 10px 0;
-            }
-            
-            /* Estilos de css002-interno.html */
-            .css002 p {
-                color: blue;
-            }
-            
-            /* Estilos para cada ejemplo */
-            .texto2 {
-                color: green;
-                font-size: 20px;
-                font-family: Arial, sans-serif;
-                font-weight: bold;
-                text-decoration: underline;
-                text-transform: uppercase;
-                text-align: center;
-            }
-            .box {
-                width: 200px;
-                height: 100px;
-                padding: 20px;
-                border: 5px solid black;
-                margin: 30px;
-                background-color: lightgray;
-            }
-            .fondo {
-                width: 400px;
-                height: 200px;
-                background-color: #f0f0f0;
-                background-image: url('https://via.placeholder.com/400x200');
-                background-repeat: no-repeat;
-                background-position: center;
-                color: white;
-                text-align: center;
-                padding-top: 80px;
-                font-size: 24px;
-                font-weight: bold;
-            }
-        </style>
+        <link rel="stylesheet" href="tarea-3.css">
     </head>
     <body>
         <h1>Compilación de ejemplos CSS - Unidad 2</h1>
@@ -150,6 +97,42 @@
             <div class="codigo">
                 <div class="fondo">
                     FONDO PERSONALIZADO
+                </div>
+            </div>
+        </section>
+        
+        <!-- css008-flex.html -->
+        <section id="css008">
+            <h2>CSS008 - Posicionamiento</h2>
+            <div class="codigo">
+                <div class="statico">Static</div>
+                <div class="relativo">Relatie</div>
+                <div class="absoluto">Absolute</div>
+                <div class="fijo">Fixed</div>
+            </div>
+        </section>
+        
+        <!-- css009-flexbox.html -->
+        <section id="css009">
+            <h2>CSS009 - Flexbox</h2>
+            <div class="codigo">
+                <div class="contenedor">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item especial">3</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- css010-grid.html -->
+        <section id="css010">
+            <h2>CSS010 - Grid</h2>
+            <div class="codigo">
+                <div class="grid">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
                 </div>
             </div>
         </section>
