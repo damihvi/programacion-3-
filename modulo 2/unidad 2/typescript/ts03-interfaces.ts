@@ -8,9 +8,9 @@ interface Persona{
 let empleado: Persona = {
     nombre: "bob",
     apellido: "marley",
-    edad: 0,
+    edad: 36,
     saludar: function (): void {
-        throw new Error("Function not implemented.");
+        console.log(`Hola, soy ${this.nombre} ${this.apellido}`);
     }
 }
 console.log("empleado", empleado);
@@ -27,3 +27,9 @@ let miUsuario: credenciales = {
     usuario: "bob",
     clave: "123456"
 }
+
+// Llamar la función login con el usuario creado
+login(miUsuario);
+
+// Llamar la función saludar del empleado
+empleado.saludar();

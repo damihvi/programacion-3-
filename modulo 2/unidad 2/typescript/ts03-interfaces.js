@@ -1,9 +1,9 @@
 var empleado = {
     nombre: "bob",
     apellido: "marley",
-    edad: 0,
+    edad: 36,
     saludar: function () {
-        throw new Error("Function not implemented.");
+        console.log("Hola, soy ".concat(this.nombre, " ").concat(this.apellido));
     }
 };
 console.log("empleado", empleado);
@@ -14,3 +14,7 @@ var miUsuario = {
     usuario: "bob",
     clave: "123456"
 };
+// Llamar la función login con el usuario creado
+login(miUsuario);
+// Llamar la función saludar del empleado
+empleado.saludar();
